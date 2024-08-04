@@ -1,0 +1,33 @@
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232, 229, 229); 
+  }
+  
+  #popup {
+    background-color: #fff; /* White popup background */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  button {
+    background-color: #155bd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+  }
+  
+  button:hover {
+    background-color: #2667B2;
+  }
+  

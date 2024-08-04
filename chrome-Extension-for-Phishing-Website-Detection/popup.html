@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detector</title>
+    <style>
+        body {
+            width: 200px;
+            height: 350px;
+            font-family: Arial, sans-serif;
+            color: #e72222;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space out the content */
+        }
+        h1 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        #check-button {
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #e72222;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #check-button:hover {
+            background-color: #c81b1b;
+        }
+        #message {
+            text-align: center;
+            font-size: 16px;
+            margin: 20px auto; /* Ensures space between the button and the message */
+            color: #4CAF50; /* Green color for the message */
+            margin-bottom: 10px; /* Space from the bottom of the popup */
+        }
+    </style>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Phishing Detector</h1>
+    <button id="check-button">Check URL</button>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
